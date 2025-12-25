@@ -1,0 +1,135 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+
+header
+{
+    border: 1px solid;
+    border-color: aliceblue;
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 20px;
+    grid-column: 1/-1;
+    color: cornflowerblue;
+}
+#abc
+{
+    font-size: 25px;
+    color: blue;
+    font-weight: bold;
+}
+footer
+{
+    border: 1px solid;
+    border-color: aliceblue;
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 11px;
+    grid-column: 1/-1;
+    color: cornflowerblue;
+}
+
+a
+{
+    color: cornflowerblue;
+    text-decoration: none;
+}
+a:hover
+{
+    color: darkblue;
+}
+
+#ab
+{
+    color: darkcyan;
+    padding: 7px;
+}
+#ab:hover
+{
+    color: cyan;
+}
+
+body
+{
+    display: grid;
+    grid-template-columns: 135px 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+}
+#abc1
+{
+    display: grid;
+    grid-template-columns: 135px 1fr;
+}
+
+aside
+{
+    font-size: 15px;
+    line-height: 23px;
+}
+#bc
+{
+    padding: 0;
+}
+#bc:hover
+{
+    opacity: 0.7;
+}
+#bc1
+{
+    border-radius: 7px;
+    padding: 5px ;
+}
+#ca:hover
+{
+    opacity: 0.7;
+}
+
+main
+{
+    text-align: justify;
+    padding: 0 23px;
+    font-size: 17px;
+    color:midnightblue;
+    line-height: 23px;
+    margin: 10px;
+    border-left: 1px solid;
+    border-color:cornflowerblue;
+}
+p
+{
+    font-size: 15px;
+}
+summary
+{
+    font-size: 17px;
+}
+
+li
+{
+    font-size: 15px;
+}
+#ab1
+{
+    font-size: 13px;
+    list-style: none;
+    background-image: url(jp2.png);
+    background-size: 9px 9px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    padding: 0 27px;
+    background-position: 17px 7px;
+    display: block;
+}
+ol
+{
+    margin: 3px;
+}
+
+img
+{
+    border-radius: 10px;
+    padding: 7px ;
+}
